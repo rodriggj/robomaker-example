@@ -18,8 +18,17 @@
 
 ### Install ROS2 
 
-#### Install on MacOS
-1. 
+#### Install on Ubuntu Virtual Machine (manual)
+1. Go to AWS Console > AWS EC2 > Select the following AMI `Ubuntu Server 22.04 LTS (HVM), SSD Volume Type` > t2.micro
+2. Change permission settings to key-pair
+3. SSH to EC2 instance
+4. Configure the EC2 instance per instructions [here](https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Install-Binary.html)
+- [ ] Set Locale
+- [ ] Setup Resources
+- [ ] Install ROS2 Packages
+- [ ] Sourcing the Setup Script
+- [ ] Test Installation
+5. Next Steps [here](https://docs.ros.org/en/humble/Tutorials.html)
 
 
 ## References 

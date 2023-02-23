@@ -4,7 +4,6 @@
 - [ ] MacBook Pro,  Chip:Apple M1 Pro, Memory: 16GB, OS: Ventura: 13.2.1
 - [ ] Brew [Install Instructions](https://docs.brew.sh/Installation)
 - [ ] XCode [Install Instructions](https://developer.apple.com/support/xcode/) 
-> To check xCode verison see the following [StackOverflow](https://stackoverflow.com/questions/21272479/how-can-i-find-out-if-i-have-xcode-commandline-tools-installed)
 - [ ] Visual Studio Code v1.75.1 [Install Instrctions](https://code.visualstudio.com/docs/setup/mac)
 - [ ] Terraform v1.2.9 [Install Instructions](https://developer.hashicorp.com/terraform/downloads)
 - [ ] AWS CLI v2.9.9 [Install Instructions](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
@@ -22,17 +21,10 @@
 #### Install on MacOS
 1. 
 
-#### Install on Ubuntu Linux
-
-##### Install on EC2
-
-##### Install on Docker Container
-
 
 ## References 
 - [ ] [ROS2 Crash Course](https://www.youtube.com/watch?v=Gg25GfA456o)
-
-
+- [ ] [xCode Version](https://stackoverflow.com/questions/21272479/how-can-i-find-out-if-i-have-xcode-commandline-tools-installed)
 
 ## FAQs 
 1. If I'm going to install ROS2 locally on a MacOS or Windows Desktop, which installation pacakage should I use. 

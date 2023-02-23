@@ -30,10 +30,33 @@
     + [ ] Test Installation
 5. Next Steps [here](https://docs.ros.org/en/humble/Tutorials.html)
 
+> NOTE: If you ran the setup script you will have installed `ros-humble-desktop`, `ros-humble-ros-base`, & `ros-humble-dev-tools`. Depending on your system configuration you may not want to install all three package binaries; you can select the pacakges that deliver the functionality you wish. 
+
+> NOTE: The file location for the source files for the `ros-humble-desktop` can be found in `opt/ros/humble` directory (for example).
+
+> NOTE: In the current configuration, you have to `source` the `setup.bash` script for each terminal session that is opened. To configure this **to not** have to source this file, configure the with the following command. 
+
+```s
+gedit ~/.bashrc 
+# When the file opens add the following line to this file
+source /opt/ros/humble/setup.sh
+```
+
+> NOTE: On the Ubuntu AMI, `gedit` **is not** installed on the image. You have to install with the following commands: 
+```s
+sudo snap install gedit
+```
+
+#### Install `rqt_graph`
+1. 
 
 ## References 
 - [ ] [ROS2 Crash Course](https://www.youtube.com/watch?v=Gg25GfA456o)
 - [ ] [xCode Version](https://stackoverflow.com/questions/21272479/how-can-i-find-out-if-i-have-xcode-commandline-tools-installed)
+- [ ] [rqt_graph](https://roboticsbackend.com/rqt-graph-visualize-and-debug-your-ros-graph/)
+- [ ] [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
+- [ ] [AWS Robotics Repositories](https://github.com/orgs/aws-robotics/repositories?type=all)
+- [ ] [RoboMaker Youtube Vidoe Demo](https://github.com/aws-robotics/aws-robomaker-sample-application-cloudwatch)
 
 ## FAQs 
 1. If I'm going to install ROS2 locally on a MacOS or Windows Desktop, which installation pacakage should I use. 
